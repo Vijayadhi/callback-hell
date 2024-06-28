@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    
+}
+
+nav .wish h1 {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Needed for non-WebKit browsers */
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: inline-block;
+}
+
+h3{
+    /* font-size: 2rem; Adjust font size as needed */
+    /* font-weight: bold; */
+    background: linear-gradient(90deg, #FF9933, #FFFFFF, #138808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Needed for non-WebKit browsers */
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h4{
+    color: wheat;
+}
+
+.text-wishes {
+    font-size: 5rem;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #e31313, #f8953f, #fadada, #fff, #50dea0, #11a369, #22d019);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+@media (max-width: 767.98px) {
+    .text-wishes {
+        font-size: 3rem;
+        margin-left: 0;
+    }
+
+    .wish {
+        text-align: center;
+        margin-left: 0;
+        
+    }
+
+    .ashoka-chakra,
+    .gift-box {
+        margin-left: 0;
+        margin-top: 2rem;
+        
+    }
+
+    .wish-img {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900.98px) {
+    .text-wishes {
+        font-size: 4rem;
+        margin-left: 2rem;
+    }
+
+    .wish {
+        margin-left: 0;
+    }
+
+    .ashoka-chakra,
+    .gift-box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    .wish-img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-wishes {
+        margin-left: 5rem;
+    }
+
+    .wish {
+        margin-left: 32rem;
+    }
+
+    .ashoka-chakra {
+        margin-left: 25rem;
+    }
+
+    .gift-box {
+        margin-left: 5rem;
+        margin-top: 5rem;
+    }
+
+    
+}
